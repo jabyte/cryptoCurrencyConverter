@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.silicsystems.cryptocurrencyconverter.CreatingNewCard"
+    tools:showIn="@layout/activity_creating_new_card"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp"></LinearLayout>
+
+    <FrameLayout
+        android:layout_width="369dp"
+        android:layout_height="445dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.00"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="?android:attr/detailsElementBackground"
+                android:spinnerMode="dialog" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="0.00" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.00"
+                android:dropDownWidth="match_parent"
+                android:popupBackground="?android:attr/detailsElementBackground" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="0.00" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="0.00"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="0.00" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="0.00"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="0.00" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:background="@android:color/holo_blue_light"
+                android:elevation="0dp"
+                android:text="CREATE CARD"
+                android:textColor="?android:attr/textColorPrimaryInverseNoDisable" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_weight="0.00" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:text="CANCEL"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="?android:attr/textColorPrimaryInverseNoDisable" />
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
